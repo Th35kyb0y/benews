@@ -6,12 +6,10 @@ const stream = require('stream');
 const GOOGLE_DRIVE_BASEURL  = "https://drive.google.com/uc?id=";
 
 
-const
-    CLIENT_ID = "449203691628-4md32e6jnpti5lopaipnfbupomfc36us.apps.googleusercontent.com",
-    CLIENT_SECRET = "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",
-    REDIRECT_URI = "https://developers.google.com/oauthplayground",
-
-    refresh_token = "1//04Kl8Z5mIjXA_CgYIARAAGAQSNwF-L9IrkQ3QkbFHmWlQwOM-US1SB8uZ3fqdqidAKark00AXW1CzlmdNmp1eQXWbO9W3w1s-4QQ"
+const CLIENT_ID = '586450268475-qjbpemtp5k88aouuk379mfc9644rukgo.apps.googleusercontent.com';
+const CLEINT_SECRET = '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';
+const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
+const REFRESH_TOKEN = '1//04j8fuKHSZkUDCgYIARAAGAQSNwF-L9IrNq41kHIkWMjoJMdUrkPfEeLJW60Vsitzt4b7N7eZDgq0MstJx1FRxp6qKw6cpS25ibM';
 
 const auth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
 
