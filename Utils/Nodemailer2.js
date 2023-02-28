@@ -7,7 +7,7 @@ var smtpTransport = require('nodemailer-smtp-transport');
 const CLIENT_ID = '586450268475-qjbpemtp5k88aouuk379mfc9644rukgo.apps.googleusercontent.com';
 const CLEINT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = '1//04j8fuKHSZkUDCgYIARAAGAQSNwF-L9IrNq41kHIkWMjoJMdUrkPfEeLJW60Vsitzt4b7N7eZDgq0MstJx1FRxp6qKw6cpS25ibM';
+const REFRESH_TOKEN = '4/0AWtgzh77lBW4iomWO915VvWPFXg2nf6aDMCAqmmjAX7SZUP2aCJtwjY09-0iuTKl4mgugQ';
 
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,
