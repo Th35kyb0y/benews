@@ -27,10 +27,10 @@ async function sendMail(emailsArr,code) {
         auth: {
           type: 'OAuth2',
           user: 'newsletter@kloudrac.com',
-          clientId: CLIENT_ID,
-          clientSecret: CLEINT_SECRET,
-          refreshToken: REFRESH_TOKEN,
-          accessToken: accessToken,
+          clientId: '407408718192.apps.googleusercontent.com',
+          clientSecret: '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',
+          refreshToken: '1//04u7CrocE8abvCgYIARAAGAQSNwF-L9Iriw6LMYulcLDK7lrQjjghJ-nn-Q9Q4HIoGzc9Xr1G_qlDkS4EEIWC45rtZwVColnaElg',
+          accessToken: "ya29.a0AVvZVsr_nCUmLuJQuxjTfdko-yEJ2YiSjdzj-OvwPALgCiSSPh97QH-6Nlg283wrpfc0bq0KAudeET_R6-z0sMQ_SnHtvdmwPeuf_c5EZNAb0f1qogX5MtaILSONen756MQigCrVSYpewodNLDufAgzpKot6aCgYKAYUSARISFQGbdwaIGb77WULuGtvuUKltgiWJKg0163",
         },
       });
   
