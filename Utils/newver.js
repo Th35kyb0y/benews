@@ -183,4 +183,4 @@ const sendMailwhenPending = async (emailsArr) => {
     return await result
 }
 
-module.export =sendMailTo
+module.exports =sendMailTo
