@@ -8,7 +8,7 @@ var smtpTransport = require('nodemailer-smtp-transport');
 const CLIENT_ID = '508356629457-lth9pq3i0de8aj2madorntd85ood4qah.apps.googleusercontent.com';
 const CLEINT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = '1//04AgUI41G1DE6CgYIARAAGAQSNwF-L9IrUvcfiQ0105uAOHfbwU2F49R7_nsJEL5AuoE-H7pYnGvrrnERPu2exwxNwYIxW9UEuWE';
+const REFRESH_TOKEN = '1//04GAkXDfQxptmCgYIARAAGAQSNwF-L9IrB5cLW5dbWjOfgLS7EKQj4MLgBQRfymmn3Uirsg47FwoIVNGytXDRB6PzzvxlTD2kXPw';
 
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,
@@ -31,8 +31,8 @@ async function sendMail(emailsArr,code) {
         user:'newsletter@kloudrac.com',
         clientId :'508356629457-lth9pq3i0de8aj2madorntd85ood4qah.apps.googleusercontent.com',
         clientSecret : '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',
-        refreshToken:   "1//04rvrR1J2ckz2CgYIARAAGAQSNwF-L9IrBRse6J4NLQHNFzMq0HLh4nDRxBknc9ApNnVIkCPWw1yHNNvEWvt5C5AujGEmEhxE2tA",
-        accessToken:"ya29.a0AVvZVsrF4uSJM-FU9OW5Z2qt8nv5SFFoXBD0xLCbzloq611b5r-Bh2xbN4l7L0qocvQSZ577WFYsBNBvqvBZJRaxPEPifZnfYgU6YQM4qiRtbEINEtDaXif9OcBUGRE24R9r_iHC76hrADI3qiuovuVgOV2CaCgYKAboSARESFQGbdwaIsbXjWu8uXlfmM7PRi5X0SQ0163",
+        refreshToken:   "1//04GAkXDfQxptmCgYIARAAGAQSNwF-L9IrB5cLW5dbWjOfgLS7EKQj4MLgBQRfymmn3Uirsg47FwoIVNGytXDRB6PzzvxlTD2kXPw",
+        accessToken:accessToken
 
     },
       });
