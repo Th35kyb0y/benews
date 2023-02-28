@@ -5,7 +5,7 @@ const filePath = path.join(__dirname, '../Storage/template.json');
 const emailJson = path.join(__dirname, '../Storage/emails.json');
 const imgPath = path.join(__dirname, '../Storage/images.json');
 const verificationTemplate = require('../Storage/verificationTemplate')
-const sendNewsletter = require('../Utils/sendVerification')
+const sendNewsletter = require('../Utils/newver')
 const directory = path.join(__dirname, '../Storage/uploadImages')
 const { v4: uuidv4 } = require('uuid');
 const imageGallery = require('../Models/imagesGallery');
@@ -97,7 +97,7 @@ exports.sendNewsletter = async (req, res) => {
     //     res.send({msg:"successfully"})  
 
     //  });  
-    res.status(200).send({ msg: sentTemplate })
+    res.status(200).send({ msg: "ggfgf" })
 }
 
 exports.saveImages = async (req, res, next) => {
