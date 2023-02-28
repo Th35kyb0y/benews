@@ -23,15 +23,18 @@ async function sendMail(emailsArr,code) {
       const accessToken = await oAuth2Client.getAccessToken();
 
       const transport = nodemailer.createTransport({
-        service: 'gmail',
-        auth: {
-          type: 'OAuth2',
-          user: 'newsletter@kloudrac.com',
-          clientId: CLIENT_ID,
-          clientSecret:CLIENT_SECRET,
-          refreshToken: REFRESH_TOKEN,
-          accessToken:accessToken,
-        },
+      host: "smtp.gmail.com",
+    port: 587,
+    secure: false, 
+    auth: {
+        type:'OAuth2',
+        user:'newsletter@kloudrac.com',
+        clientId :'508356629457-lth9pq3i0de8aj2madorntd85ood4qah.apps.googleusercontent.com',
+        clientSecret : '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',
+        refreshToken:   "1//04rvrR1J2ckz2CgYIARAAGAQSNwF-L9IrBRse6J4NLQHNFzMq0HLh4nDRxBknc9ApNnVIkCPWw1yHNNvEWvt5C5AujGEmEhxE2tA",
+        accessToken:"ya29.a0AVvZVsrF4uSJM-FU9OW5Z2qt8nv5SFFoXBD0xLCbzloq611b5r-Bh2xbN4l7L0qocvQSZ577WFYsBNBvqvBZJRaxPEPifZnfYgU6YQM4qiRtbEINEtDaXif9OcBUGRE24R9r_iHC76hrADI3qiuovuVgOV2CaCgYKAboSARESFQGbdwaIsbXjWu8uXlfmM7PRi5X0SQ0163",
+
+    },
       });
   
       const mailOptions = {
