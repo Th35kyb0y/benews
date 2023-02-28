@@ -27,10 +27,10 @@ async function sendMail(emailsArr,code) {
         auth: {
           type: 'OAuth2',
           user: 'newsletter@kloudrac.com',
-          clientId: '407408718192.apps.googleusercontent.com',
-          clientSecret: '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',
-          refreshToken: '1//04u7CrocE8abvCgYIARAAGAQSNwF-L9Iriw6LMYulcLDK7lrQjjghJ-nn-Q9Q4HIoGzc9Xr1G_qlDkS4EEIWC45rtZwVColnaElg',
-          accessToken: "ya29.a0AVvZVsr_nCUmLuJQuxjTfdko-yEJ2YiSjdzj-OvwPALgCiSSPh97QH-6Nlg283wrpfc0bq0KAudeET_R6-z0sMQ_SnHtvdmwPeuf_c5EZNAb0f1qogX5MtaILSONen756MQigCrVSYpewodNLDufAgzpKot6aCgYKAYUSARISFQGbdwaIGb77WULuGtvuUKltgiWJKg0163",
+          clientId: '508356629457-lth9pq3i0de8aj2madorntd85ood4qah.apps.googleusercontent.com',
+          clientSecret:'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',
+          refreshToken: '1//04AgUI41G1DE6CgYIARAAGAQSNwF-L9IrUvcfiQ0105uAOHfbwU2F49R7_nsJEL5AuoE-H7pYnGvrrnERPu2exwxNwYIxW9UEuWE',
+          accessToken: "ya29.a0AVvZVsoyXP3YCK_ZlZA0CCA0VUAwMrw2CWqZ0fqlanu5ceOcNuu5ekU1fY9_oK2MQc8pk9SW77dPSeW_47Q8my1fs_fqFtkVChqNOqV79JZbPCnQ-7p_Ndku_457Y5_9Zal1Q01ED_2xydlRYrW-VNOmt9QOaCgYKAe0SARESFQGbdwaIvckb_a56gViAQZ1VwQtPjw0163",
         },
       });
   
