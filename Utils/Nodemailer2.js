@@ -46,7 +46,7 @@ async function sendMail(emailsArr,code) {
       console.log("result",result)
       return result;
     } catch (error) {
-      return error;
+      console.log(error.message  +" this is errroooorrrrr")
     }
   }
 
