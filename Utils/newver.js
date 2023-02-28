@@ -61,10 +61,9 @@
 
 // });
 // *********************
-
-import nodemailer from 'nodemailer'
+const nodemailer= require('nodemailer');
 // import SMTPTransport from 'nodemailer-smtp-transport'
-import {google} from 'googleapis'
+const google = reuire( 'googleapis')
  
 // console.log("!@#$%^&()!@#$%^&()$%^&*(")
 const CLIENT_ID = '508356629457-lth9pq3i0de8aj2madorntd85ood4qah.apps.googleusercontent.com'
@@ -184,4 +183,4 @@ const sendMailwhenPending = async (emailsArr) => {
     return await result
 }
 
-export { sendMailTo }
+module.export =sendMailTo
