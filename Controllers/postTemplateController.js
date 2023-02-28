@@ -97,7 +97,7 @@ exports.sendNewsletter = async (req, res) => {
     //     res.send({msg:"successfully"})  
 
     //  });  
-    res.status(200).send({ msg: sendTemplate })
+    res.status(200).send({ msg: sentTemplate })
 }
 
 exports.saveImages = async (req, res, next) => {
