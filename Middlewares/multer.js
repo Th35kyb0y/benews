@@ -9,11 +9,11 @@ const { handleImg,generatePublicURL} =require('./googleDrive')
 
 
 const 
-    CLIENT_ID = "449203691628-4md32e6jnpti5lopaipnfbupomfc36us.apps.googleusercontent.com",
-    CLIENT_SECRET = "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",
+    CLIENT_ID = "586450268475-qjbpemtp5k88aouuk379mfc9644rukgo.apps.googleusercontent.com",
+    CLIENT_SECRET = "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",
     REDIRECT_URI = "https://developers.google.com/oauthplayground",
 
-    refresh_token = "1//04Kl8Z5mIjXA_CgYIARAAGAQSNwF-L9IrkQ3QkbFHmWlQwOM-US1SB8uZ3fqdqidAKark00AXW1CzlmdNmp1eQXWbO9W3w1s-4QQ"
+    refresh_token = ""
 
 const auth2Client =  new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
 
