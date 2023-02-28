@@ -24,7 +24,7 @@ const { insertRecord } = require('../db_config/models');
 //     const verificationPasscode = await generateOTP()
 //     const accountStatus = "not verified"
 //     console.log("hhhhhhh", randomPassword)
-
+//hhh
 
 //     await bcrypt.hash(randomPassword, 10, async function (err, hash) {
 //         if (err) return new Error("somme error occurred");
