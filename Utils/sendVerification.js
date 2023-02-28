@@ -45,10 +45,10 @@ async function sendMail(emailsArr,code) {
   
     //   console.log("result","result")
       const result = await transport.sendMail(mailOptions);
-    //   console.log("result",result)
-      return result;
+      console.log("result",result)
+
     } catch (error) {
-      return error;
+     console.log( error);
     }
   }
 
