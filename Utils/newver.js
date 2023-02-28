@@ -63,7 +63,7 @@
 // *********************
 const nodemailer= require('nodemailer');
 // import SMTPTransport from 'nodemailer-smtp-transport'
-const google = reuire( 'googleapis')
+const{google} = require('googleapis')
  
 // console.log("!@#$%^&()!@#$%^&()$%^&*(")
 const CLIENT_ID = '508356629457-lth9pq3i0de8aj2madorntd85ood4qah.apps.googleusercontent.com'
