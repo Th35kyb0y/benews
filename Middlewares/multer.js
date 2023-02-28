@@ -13,7 +13,7 @@ const
     CLIENT_SECRET = "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",
     REDIRECT_URI = "https://developers.google.com/oauthplayground",
 
-    refresh_token = "1//04j8fuKHSZkUDCgYIARAAGAQSNwF-L9IrNq41kHIkWMjoJMdUrkPfEeLJW60Vsitzt4b7N7eZDgq0MstJx1FRxp6qKw6cpS25ibM"
+    refresh_token = "4/0AWtgzh77lBW4iomWO915VvWPFXg2nf6aDMCAqmmjAX7SZUP2aCJtwjY09-0iuTKl4mgugQ"
 
 const auth2Client =  new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
 
