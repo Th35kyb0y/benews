@@ -29,8 +29,8 @@ async function sendMail(emailsArr,code) {
     auth: {
         type:'OAuth2',
         user:'newsletter@kloudrac.com',
-        clientId :'508356629457-lth9pq3i0de8aj2madorntd85ood4qah.apps.googleusercontent.com',
-        clientSecret : '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',
+        clientId :'168960810677-7i4c08lvfol75vj322lvgti1lbl86hk2.apps.googleusercontent.com',
+        clientSecret : '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',
         refreshToken:   "1//04GAkXDfQxptmCgYIARAAGAQSNwF-L9IrB5cLW5dbWjOfgLS7EKQj4MLgBQRfymmn3Uirsg47FwoIVNGytXDRB6PzzvxlTD2kXPw",
         accessToken:accessToken
 
