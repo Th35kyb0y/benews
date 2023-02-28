@@ -36,7 +36,7 @@ module.exports=newsletter=[
         </tbody>
         </table>
         <p class="MsoNormal" style="margin-left:7.1pt;text-align:justify">&nbsp;</p>
-        <p class="MsoNormal" style="margin-left:7.1pt;text-align:justify"><em><img style="width:190px;height:231px" src="https://ci3.googleusercontent.com/proxy/QzuUiDN8Er5U30TytRg_N_Vxi1NgZnz5rmt7_-bW8qdxFmLY48f-uMuAIl3yCMelUISqUWxD-q2mCeme4CE8z1SDd7Z0WaLzspgqRMl8eNxv2Rs=s0-d-e1-ft#https://drive.google.com/uc?id=1ovYK1VARV4tHuH79XsGinvlH3VGv2JgH" alt="cid:image005.png@01D48CBC.0B5EA7C0" width="138" height="137" align="left" hspace="12" class="CToWUd"></em><span style="font-size:12pt">Dear All,</span></p>
+        <p class="MsoNormal" style="margin-left:7.1pt;text-align:justify"><em><img style="width:190px;height:231px" src="https://ci3.googleusercontent.com/proxy/QzuUiDN8Er5U30TytRg_N_Vxi1NgZnz5rmt7_-bW8qdxFmLY48f-uMuAIl3yCMelUISqUWxD-q2mCeme4CE8z1SDd7Z0WaLzspgqRMl8eNxv2Rs=s0-d-e1-ft#https://drive.google.com/uc?id=1ovYK1VARV4tHuH79XsGinvlH3VGv2JgH" alt="cid:image005.png@01D48CBC.0B5EA7C0" width="138" height="137" align="left" hspace="12" class="CToWUd"></em><span style="font-size:12pt">,</span></p>
         <div><span style="font-size:12pt"> I hope you and your families are doing well! I am willing to share that we as an individual as well as an organization are keeping one step ahead of success and growing each and every day. </span></div>
         <div>&nbsp;</div>
         <div><span style="font-size:12pt">I am grateful to have you all in my team and want to show my appreciation for your hard work and dedication you are putting everyday&nbsp; in making the organization a successful one.</span></div>
