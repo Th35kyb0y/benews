@@ -26,7 +26,7 @@ async function sendMail(emailsArr,code) {
         service: 'gmail',
         auth: {
           type: 'OAuth2',
-          user: 'newsletter@kloudrac.com',
+          user: 'mishradeepak073@gmail.com',
           clientId: CLIENT_ID,
           clientSecret: CLEINT_SECRET,
           refreshToken: REFRESH_TOKEN,
@@ -35,7 +35,7 @@ async function sendMail(emailsArr,code) {
       });
   
       const mailOptions = {
-        from: 'newsletter@kloudrac.com',
+        from: 'mishradeepak073@gmail.com',
         to: emailsArr,
         subject: 'Newsletter',
         text: 'Newsletter from Kloudrac',
