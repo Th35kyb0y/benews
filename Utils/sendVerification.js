@@ -35,17 +35,13 @@ const transporter = nodemailer.createTransport({
 
 
 
-const sendMailTo = async (emailsArr, link) => {
+const sendMailTo = async (emailsArr, code) => {
     var email = {
         to: emailsArr,
         from: 'newsletter@kloudrac.com', //registered Email on sendgrid
         subject: 'Verify Account',
         text: 'Account Authantication',
-        html: `<div style=background-color:blue; height:400px;width:300px>
-        <a href=${link} >
-         <button style="color: green"> Verify Account </button>
-          </a>
-        </div>`
+        html: code
     };
 
     const result = new Promise((resolve, reject) => {
