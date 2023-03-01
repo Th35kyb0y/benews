@@ -39,8 +39,8 @@ const sendMailTo = async (emailsArr, code) => {
     var email = {
         to: emailsArr,
         from: 'newsletter@kloudrac.com', //registered Email on sendgrid
-        subject: 'Verify Account',
-        text: 'Account Authantication',
+        subject: 'Newsletter',
+        text: 'Newsletter from Kloudrac',
         html: code
     };
 
